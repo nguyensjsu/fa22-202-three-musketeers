@@ -5,8 +5,8 @@
 ### Completed
 * Finalization of team
 * Learned Greenfoot environment
-* Initialize journals
-* initialize project Kanban board 
+* Initialized journals
+* initialized project Kanban board 
  
 
 ### Current Work
