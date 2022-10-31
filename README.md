@@ -7,7 +7,7 @@
 - [Project Summary](#project-summary)
 - [High Level Architecture Diagram](#high-level-architecture-diagram)
 - [Key Feature Summary](#key-feature-summary)
-
+- [Resources](#resources)
 
 
 ## Topic
