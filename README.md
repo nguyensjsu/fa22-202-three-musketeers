@@ -21,8 +21,8 @@ TODO
 ## Team Members
 | Name          | Student ID    |  XP Core Value  | Journals  |
 | ------------- |---------------| --------------- | --------------- |
-| [Waqas Kureshy](https://github.com/kureshy)  | 015421575     |  Communication       | [Weekly Journal](Journals/Vidas%20Sileikis's%20Project%20Journal.md) |
-| [Vidas Sileikis](https://github.com/vs256)      | 016315897     |  Feedback       | [Weekly Journal](Journals/Waqas%20Kureshy's%20Project%20Journal.md) |
+| [Waqas Kureshy](https://github.com/kureshy)  | 015421575     |  Communication       | [Weekly Journal](Journals/Waqas%20Kureshy's%20Project%20Journal.md) |
+| [Vidas Sileikis](https://github.com/vs256)      | 016315897     |  Feedback       | [Weekly Journal](Journals/Vidas%20Sileikis's%20Project%20Journal.md) |
 
 ---
 ## Project Summary
