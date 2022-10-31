@@ -37,3 +37,8 @@ TODO
 TODO: (include any special design ideas implemented)
 
 ---
+
+## Resources
+[Project Task Board](https://github.com/orgs/nguyensjsu/projects/14)
+
+[Sprint Task Sheet](https://docs.google.com/spreadsheets/d/1_7OaH0Ns1McdoYEcVgvOgk_x9eFzFv0BA5ryzZEm2_c/edit?usp=sharing)
