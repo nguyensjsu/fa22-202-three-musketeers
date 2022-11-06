@@ -18,3 +18,28 @@
 
 ### XP Value: Communication
 Held Team meeting with group member, started a communication channel, discussed ideas and problems.
+
+-------------------------------
+
+## Week 2 (October 29th to Nov 5)
+
+### Completed
+* Project Finalization
+* Design Pattern Recognition
+ 
+
+### Current Work
+* Implementing Factory Design pattern
+* Change Display
+* Add more features
+
+### Blockers
+* No blockers
+
+### XP Value: Communication
+* Held weekly Team meeting with group member
+* Discussed design patterns
+* Shared resources
+* Recognised Problems with old choices.
+
+
