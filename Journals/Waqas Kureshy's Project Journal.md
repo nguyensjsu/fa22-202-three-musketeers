@@ -29,7 +29,7 @@ Held Team meeting with group member, started a communication channel, discussed 
  
 
 ### Current Work
-* Implementing Factory Design pattern
+* Implementing Factory Design pattern for enemy bots.
 * Change Display
 * Add more features
 
