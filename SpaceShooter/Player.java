@@ -18,6 +18,7 @@ public class Player extends Actor
         // Add your action code here.
         move();
         shot();
+        addTarget();
     }
     
     
@@ -59,4 +60,21 @@ public class Player extends Actor
             //where the object is added i.e 50 pixels hor-dist from car
         
         }
-}
+        
+        
+    public void addTarget()
+    {  
+        int num = Greenfoot.getRandomNumber(100);
+        if(num>=98)
+        {
+             
+            EnemyGenerator enemyGenerator= new EnemyGenerator();
+            Biff target= EnemyGenerator.getInstance(num);
+            int x = 300 + Greenfoot.getRandomNumber(1000-400);
+            int y = 10 + Greenfoot.getRandomNumber(600-20);
+            GameScreen game=GameScreen.getInstance();
+            game.addObject(target,x,y);} 
+            
+        }
+    }
+

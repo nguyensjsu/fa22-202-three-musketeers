@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EnemyGenerator
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ EnemyGenerator\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=num
+comment1.target=Biff\ getInstance(int)
+numComments=2
