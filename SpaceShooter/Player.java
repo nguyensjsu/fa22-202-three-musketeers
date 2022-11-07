@@ -51,13 +51,13 @@ public class Player extends Actor
         if("space".equals(Greenfoot.getKey()))
         {
             //Greenfoot.playSound("shot.mp3");
-            int x = getX() + 50;
+            int x = getX() + 50; //where the object is added i.e 50 pixels hor-dist from car
             int y = getY();
             
             HoverBoard hoverBoard = new HoverBoard(8,8,0);
             GameScreen game=GameScreen.getInstance();
             game.addObject(hoverBoard,x,y);} 
-            //where the object is added i.e 50 pixels hor-dist from car
+            
         
         }
         
@@ -70,7 +70,7 @@ public class Player extends Actor
              
             EnemyGenerator enemyGenerator= new EnemyGenerator();
             Biff target= EnemyGenerator.getInstance(num);
-            int x = 300 + Greenfoot.getRandomNumber(1000-400);
+            int x = 400 + Greenfoot.getRandomNumber(1000-400);
             int y = 10 + Greenfoot.getRandomNumber(600-20);
             GameScreen game=GameScreen.getInstance();
             game.addObject(target,x,y);} 

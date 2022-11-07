@@ -27,10 +27,28 @@ public class HoverBoard extends Actor
     {
         // Add your action code here.
         move(d,h,a);
+        shotTarget();
     }
     public HoverBoard()
     {
         isRemoved  = false;     
+    }
+    
+    public void shotTarget()
+    {
+        if(!isRemoved)
+        {
+            Actor actor = getOneObjectAtOffset(0,0,Biff.class);
+            if(actor != null)
+            {
+                GameScreen game=GameScreen.getInstance();
+                game.removeObject(actor);
+                game.removeObject(this);
+                isRemoved = true;
+                
+             
+            }
+        }
     }
     
     public void move(int d,int h,int a)
