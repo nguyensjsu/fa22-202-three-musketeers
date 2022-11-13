@@ -43,15 +43,15 @@ TODO: (include any special design ideas implemented)
 
 ## Design Patterns
 
-Observer & Composite pattern
-<img src="images/design-patterns/observer-composite.jpg">
+Observer & Composite pattern discussion
+<img src="images/design-patterns/observer-composite.jpg" width=750>
 ### Composite
 - Player will be a composite of different classes
   - Health
   - Hoverboard (weapon)
   - Score
   
----
+
 ### Observer
 - Each Biff enemy will notify the player observer which will act accordingly:
   - If biff gets killed, +1 point is added to score.
