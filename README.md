@@ -7,6 +7,7 @@
 - [Project Summary](#project-summary)
 - [High Level Architecture Diagram](#high-level-architecture-diagram)
 - [Key Feature Summary](#key-feature-summary)
+- [Design Patterns](#design-patterns)
 - [Resources](#resources)
 
 
@@ -34,7 +35,27 @@ TODO
 
 ---
 ## Key Feature Summary
+
+
 TODO: (include any special design ideas implemented)
+
+---
+
+## Design Patterns
+
+Observer & Composite pattern
+<img src="images/design-patterns/observer-composite.jpg">
+### Composite
+- Player will be a composite of different classes
+  - Health
+  - Hoverboard (weapon)
+  - Score
+  
+---
+### Observer
+- Each Biff enemy will notify the player observer which will act accordingly:
+  - If biff gets killed, +1 point is added to score.
+  - If biff gets over to the end of the left screen without getting killed, a life is taken away from the player.
 
 ---
 
