@@ -2,6 +2,7 @@
 ## Table of Contents
 - [Week #1](#week-1)
 - [Week #2](#week-2)
+- [Week #3](#week-3)
 
 ## Week #1 
 Date: October 22nd to October 29th
@@ -47,3 +48,32 @@ No blockers
 
 ---
 
+
+## Week #3 
+Date: November 5th to November 12th
+### Completed Work
+- Added UI wireframes for how the game should look like.
+- Added discussion & idea on design pattern.
+  - Composite pattern will be implemented for player:
+    - Health
+    - Score
+    - Hoverboard (weapon)
+  - Observer pattern will be implemented for:
+    - Health
+    - Score
+
+
+### Current Work
+- Implement health & score for the player.
+- Design patterns
+  - Implement observer patterns for health & score.
+  - Implement composite pattern for the player.
+
+### Blockers
+No blockers
+
+### XP Value: Feedback
+- Discussed on how the game should be played & iterated with each other until a joint decision is made
+- Discussed different design patterns to be implemented by our game idea.
+
+---
