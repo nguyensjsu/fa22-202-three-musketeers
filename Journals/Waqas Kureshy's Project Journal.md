@@ -43,3 +43,50 @@ Held Team meeting with group member, started a communication channel, discussed 
 * Recognised Problems with old choices.
 
 
+-------------------------
+
+## Week 3 (November 5th to Nov 12)
+
+### Completed
+* Applied Factory Method Design Pattern
+* Made Screens
+* Worked on creating enemies
+* Worked on enemy images
+ 
+
+### Current Work
+* Add sounds
+* Add more features
+
+### Blockers
+* No blockers
+
+### XP Value: Communication
+* Held weekly Team meeting with group member
+* Discussed future work
+* Shared resources
+* Recognised Problems with old choices.
+
+----------------------
+
+## Week 4 (November 12th to Nov 19)
+
+### Completed
+
+* Worked on attack functions
+ 
+
+### Current Work
+* Add sounds
+* add enemy attack function
+
+### Blockers
+* No blockers
+
+### XP Value: Communication
+* Held weekly Team meeting with group member
+* Discussed future work
+* Shared resources
+* Recognised Problems with old choices.
+
+
