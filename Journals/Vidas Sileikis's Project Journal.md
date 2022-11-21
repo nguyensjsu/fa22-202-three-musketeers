@@ -77,3 +77,24 @@ No blockers
 - Discussed different design patterns to be implemented by our game idea.
 
 ---
+
+
+
+## Week #4 
+Date: November 12th to November 19th
+### Completed Work
+- Worked on adding the health attribute for the player
+- Worked on adding the score function to the player
+
+### Current Work
+- Implement observer type pattern for health & score.
+- Implement composite pattern for the player.
+
+### Blockers
+No blockers
+
+### XP Value: Feedback
+- Discussed future work to be done & best way to tackle this problem in the upcoming weeks.
+- Shared our work with eachother and what we thought of how we are approaching the problem.
+
+---
