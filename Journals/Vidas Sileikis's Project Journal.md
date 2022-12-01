@@ -77,3 +77,56 @@ No blockers
 - Discussed different design patterns to be implemented by our game idea.
 
 ---
+
+
+
+## Week #4
+Date: November 12th to November 19th
+### Completed Work
+- Improved upon wireframes
+- Added different composite features of the player:
+    - Health
+    - Score
+    - Hoverboard (weapon)
+
+
+### Current Work
+- Implement observer feature for
+  - Score
+- Work on designing a strategy for different weapons
+  - Instead of just using hoverboard, weapon will switch based on powerup.
+
+### Blockers
+No blockers
+
+### XP Value: Feedback
+- Talked back & forth about the different ways we implemented the pattern.
+
+---
+
+
+## Week #5 
+Date: November 19th to November 26th
+### Completed Work
+- Added the observer design pattern.
+  - Score
+- Each time an enemy dies, the score gets updated through the observer pattern.
+- Wrote up diagram ideas for the gun changing strategy powerup.
+
+### Current Work
+- Implement the strategy for gun changing.
+  - Make sure powerups are added.
+- Finish polishing the game.
+
+### Blockers
+No blockers
+
+### XP Value: Feedback
+- Talked back & forth about how to polish the game.
+- Discussed the impact of last minute changes.
+
+---
+
+
+
+

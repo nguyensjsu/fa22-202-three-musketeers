@@ -8,6 +8,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Player extends Actor
 {
+    
+    public Player()
+    {
+        for(int i = 0; i < 3; i++)
+        {
+            Health health = new Health();
+            GameScreen.getInstance().addObject(health,950-(50*i),60);
+        }
+        
+    }
     /**
      * Act - do whatever the Player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
