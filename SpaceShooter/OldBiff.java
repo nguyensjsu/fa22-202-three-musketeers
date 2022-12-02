@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class OldBiff extends Biff implements IBiff
 {
     Player player;
+    private boolean isRemoved;
     
     OldBiff(Player p)
     {
@@ -22,18 +23,49 @@ public class OldBiff extends Biff implements IBiff
     {
         // Add your action code here.
         move();
+        kill();
+        isRemoved=false;
     }
     
     public void move()
     {
+        if(!isRemoved)
+        {
         move(-3);
         int x=getX();
         if(x<10)
             {
+                //GameScreen game=GameScreen.getInstance();
+                //game.removeObject(this);
+                World world;
+                world = getWorld();
+                world.removeObject(this);
+              
+                isRemoved = true;
+            }
+        }
+    }
+    
+    public void kill()
+    {
+        if(!isRemoved)
+        {
+        Actor actor = getOneObjectAtOffset(0,0,Player.class);
+        if(actor != null)
+            {
+                if (player.getHealth()<=0)
+                {GameScreen game=GameScreen.getInstance();
+                game.removeObject(actor);
+                game.removeObject(this);}
+                
+                else
+                {
+                player.addHealth(-25);
                 GameScreen game=GameScreen.getInstance();
                 game.removeObject(this);
-                player.addHealth(-25);
             }
-    
+             
+            }
+    }
     }
 }

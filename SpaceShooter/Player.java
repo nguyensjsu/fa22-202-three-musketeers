@@ -114,7 +114,7 @@ public class Player extends Actor implements ScoreSubject, HealthSubject
     {
         if("space".equals(Greenfoot.getKey()))
         {
-            //Greenfoot.playSound("shot.mp3");
+            Greenfoot.playSound("shot.mp3");
             int x = getX() + 50; //where the object is added i.e 50 pixels hor-dist from car
             int y = getY();
             
