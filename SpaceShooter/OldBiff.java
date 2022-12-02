@@ -40,7 +40,6 @@ public class OldBiff extends Biff implements IBiff
                 World world;
                 world = getWorld();
                 world.removeObject(this);
-              
                 isRemoved = true;
             }
         }
@@ -53,17 +52,21 @@ public class OldBiff extends Biff implements IBiff
         Actor actor = getOneObjectAtOffset(0,0,Player.class);
         if(actor != null)
             {
+                GameScreen game=GameScreen.getInstance();
                 if (player.getHealth()<=0)
-                {GameScreen game=GameScreen.getInstance();
-                game.removeObject(actor);
-                game.removeObject(this);}
+                {
+                    String scores=Integer.toString(player.getGameScore());
+                    
+                    game.removeObject(actor);
+                    Greenfoot.setWorld(new GameOver(scores));
+                    //game.removeObject(this);
+                }
                 
                 else
                 {
-                player.addHealth(-25);
-                GameScreen game=GameScreen.getInstance();
-                game.removeObject(this);
-            }
+                    player.addHealth(-25);
+                    game.removeObject(this);
+                }
              
             }
     }

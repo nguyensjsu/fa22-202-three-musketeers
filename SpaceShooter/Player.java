@@ -25,10 +25,13 @@ public class Player extends Actor implements ScoreSubject, HealthSubject
         ScoreObserver scoreObs = new Score(gameScore);
         attachScore(scoreObs);
         
+        
         healthObservers = new ArrayList<HealthObserver>();
         health = 100;
         HealthObserver healthObs = new Health(health);
+        
         attachHealth(healthObs);
+        
         
     }
     

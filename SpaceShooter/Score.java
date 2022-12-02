@@ -9,12 +9,14 @@ public class Score extends Actor implements ScoreObserver
     {
         scoreLabel = new Label("Score: 0");
         GameScreen.getInstance().addObject(scoreLabel, 700, 60);
+        
     }
     
     
     public void updateScore(int score)
     {
-        
         scoreLabel.setText("Score: " + score);
+        
     }
+    
 }

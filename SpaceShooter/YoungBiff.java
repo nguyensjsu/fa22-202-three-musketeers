@@ -51,15 +51,20 @@ public class YoungBiff extends  Biff implements IBiff
         Actor actor = getOneObjectAtOffset(0,0,Player.class);
         if(actor != null)
             {
+                GameScreen game=GameScreen.getInstance();
                 if (player.getHealth()<=0)
-                {GameScreen game=GameScreen.getInstance();
-                game.removeObject(actor);
-                game.removeObject(this);}
+                {
+                    
+                    String scores=Integer.toString(player.getGameScore());
+                    
+                    game.removeObject(actor);
+                    Greenfoot.setWorld(new GameOver(scores));
+                    
+                }
                 
                 else
                 {
                 player.addHealth(-25);
-                GameScreen game=GameScreen.getInstance();
                 game.removeObject(this);
             }
              
