@@ -2,8 +2,6 @@
 comment0.target=Score
 comment1.params=score
 comment1.target=Score(int)
-comment2.params=
-comment2.target=void\ act()
-comment3.params=score
-comment3.target=void\ updateScore(int)
-numComments=4
+comment2.params=score
+comment2.target=void\ updateScore(int)
+numComments=3

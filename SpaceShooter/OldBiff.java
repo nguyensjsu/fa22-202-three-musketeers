@@ -8,6 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class OldBiff extends Biff implements IBiff
 {
+    Player player;
+    
+    OldBiff(Player p)
+    {
+        player = p;
+    }
     /**
      * Act - do whatever the OldBiff wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -26,6 +32,7 @@ public class OldBiff extends Biff implements IBiff
             {
                 GameScreen game=GameScreen.getInstance();
                 game.removeObject(this);
+                player.addHealth(-25);
             }
     
     }

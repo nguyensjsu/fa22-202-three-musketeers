@@ -2,22 +2,19 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Score extends Actor implements ScoreObserver
 {
-    public static int gameScore;
-     
+    
+    private Label scoreLabel;
+    
     Score(int score)
     {
-        gameScore = score;
-
-        
+        scoreLabel = new Label("Score: 0");
+        GameScreen.getInstance().addObject(scoreLabel, 700, 60);
     }
     
-    public void act()
-    {
-        
-    }
     
     public void updateScore(int score)
     {
-        gameScore += score;
+        
+        scoreLabel.setText("Score: " + score);
     }
 }

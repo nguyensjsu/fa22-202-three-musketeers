@@ -8,13 +8,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class EnemyGenerator
 {
-    public static Biff getInstance(int num)
+    public static Biff getInstance(int num, Player p)
     {
         if (num%2==0)
-        return new YoungBiff();
+        return new YoungBiff(p);
         
         else 
-        return new OldBiff(); 
+        return new OldBiff(p); 
         
     }
 }

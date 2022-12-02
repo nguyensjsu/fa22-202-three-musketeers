@@ -4,8 +4,8 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public interface ScoreSubject  
+public interface HealthSubject  
 {
-   void notifyScoreObservers();
-   void attachScore(ScoreObserver score);
+void notifyHealthObservers();
+void attachHealth(HealthObserver health);
 }

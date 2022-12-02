@@ -15,7 +15,7 @@ public class GameScreen extends World
      */
     private static GameScreen game;
     
-    private Label scoreLabel;
+
     private Player player;
     
     private GameScreen()
@@ -23,14 +23,6 @@ public class GameScreen extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1000, 550, 1); 
         
-        for(int i = 0; i < 3; i++)
-        {
-            Health health = new Health();
-            addObject(health,950-(50*i),60);
-        }
-        
-        scoreLabel = new Label("Score: 0");
-        addObject(scoreLabel, 700, 60);
         
     }
     
@@ -58,7 +50,7 @@ public class GameScreen extends World
     
     public void act()
     {
-        scoreLabel.setText("Score: " + player.getGameScore());
+
     }
     
     

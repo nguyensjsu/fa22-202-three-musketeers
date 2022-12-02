@@ -5,27 +5,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Health extends Actor implements UserInterface
+public class Health extends Actor implements HealthObserver
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Health
-     */
-    public Health()
+    
+    private Label healthLabel;
+    
+    Health(int health)
     {
+        healthLabel = new Label("health: 100");
+        GameScreen.getInstance().addObject(healthLabel, 900, 60);
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    
+    public void updateHealth(int health)
     {
-        // put your code here
-        return x + y;
+        
+        healthLabel.setText("Health: " + health);
     }
 }

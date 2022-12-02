@@ -10,7 +10,7 @@ public class Label extends Actor
 {
     public Label(String text)
     {
-        GreenfootImage img = new GreenfootImage(text.length()*20, 60);
+        GreenfootImage img = new GreenfootImage(text.length()*20, 120);
         img.setColor(Color.RED);
         img.drawString(text, 2, 20);
         setImage(img);

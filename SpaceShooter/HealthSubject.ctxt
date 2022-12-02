@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=ScoreSubject
+comment0.target=HealthSubject
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ ScoreSubject\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=void\ notifyScoreObservers()
-comment2.params=score
-comment2.target=void\ attachScore(ScoreObserver)
+comment1.target=void\ notifyHealthObservers()
+comment2.params=health
+comment2.target=void\ attachHealth(HealthObserver)
 numComments=3

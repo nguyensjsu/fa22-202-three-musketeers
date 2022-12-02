@@ -6,27 +6,52 @@ import java.util.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Player extends Actor implements ScoreSubject
+public class Player extends Actor implements ScoreSubject, HealthSubject
 {
     private List<ScoreObserver> scoreObservers;
     private int gameScore;
     public int getGameScore() { return gameScore; }
     
+    private List<HealthObserver> healthObservers;
+    private int health;
+    public int getHealth() { return health; }
+    
+    
+    
     public Player()
     {
         scoreObservers = new ArrayList<ScoreObserver>();
         gameScore = 0;
-        ScoreObserver score = new Score(gameScore);
-        scoreObservers.add(score);
+        ScoreObserver scoreObs = new Score(gameScore);
+        attachScore(scoreObs);
+        
+        healthObservers = new ArrayList<HealthObserver>();
+        health = 100;
+        HealthObserver healthObs = new Health(health);
+        attachHealth(healthObs);
         
     }
     
-    public void attach(ScoreObserver score)
+    public void attachHealth(HealthObserver h)
+    {
+        healthObservers.add(h);
+    }
+    
+    public void notifyHealthObservers()
+    {
+        for(HealthObserver ho : healthObservers)
+        {
+            ho.updateHealth(health);
+        }
+        
+    }
+    
+    public void attachScore(ScoreObserver score)
     {
         scoreObservers.add(score);
     }
     
-    public void notifyObservers()
+    public void notifyScoreObservers()
     {
         for(ScoreObserver score : scoreObservers)
         {
@@ -38,6 +63,12 @@ public class Player extends Actor implements ScoreSubject
     public void addGameScore(int gs)
     {
         gameScore += gs;
+        notifyScoreObservers();
+    }
+    public void addHealth(int h)
+    {
+        health += h;
+        notifyHealthObservers();
     }
     
     
@@ -102,7 +133,7 @@ public class Player extends Actor implements ScoreSubject
         {
              
             EnemyGenerator enemyGenerator= new EnemyGenerator();
-            Biff target= EnemyGenerator.getInstance(num);
+            Biff target= EnemyGenerator.getInstance(num, this);
             int x = 400 + Greenfoot.getRandomNumber(1000-400);
             int y = 10 + Greenfoot.getRandomNumber(600-20);
             GameScreen game=GameScreen.getInstance();
