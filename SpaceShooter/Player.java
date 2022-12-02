@@ -1,23 +1,46 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.*;
 /**
  * Write a description of class Player here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Player extends Actor
+public class Player extends Actor implements ScoreSubject
 {
+    private List<ScoreObserver> scoreObservers;
+    private int gameScore;
+    public int getGameScore() { return gameScore; }
     
     public Player()
     {
-        for(int i = 0; i < 3; i++)
+        scoreObservers = new ArrayList<ScoreObserver>();
+        gameScore = 0;
+        ScoreObserver score = new Score(gameScore);
+        scoreObservers.add(score);
+        
+    }
+    
+    public void attach(ScoreObserver score)
+    {
+        scoreObservers.add(score);
+    }
+    
+    public void notifyObservers()
+    {
+        for(ScoreObserver score : scoreObservers)
         {
-            Health health = new Health();
-            GameScreen.getInstance().addObject(health,950-(50*i),60);
+            score.updateScore(gameScore);
         }
         
     }
+    
+    public void addGameScore(int gs)
+    {
+        gameScore += gs;
+    }
+    
+    
     /**
      * Act - do whatever the Player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -64,7 +87,7 @@ public class Player extends Actor
             int x = getX() + 50; //where the object is added i.e 50 pixels hor-dist from car
             int y = getY();
             
-            HoverBoard hoverBoard = new HoverBoard(8,8,0);
+            HoverBoard hoverBoard = new HoverBoard(8,8,0, this);
             GameScreen game=GameScreen.getInstance();
             game.addObject(hoverBoard,x,y);} 
             

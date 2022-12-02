@@ -16,11 +16,13 @@ public class HoverBoard extends Actor
     int h;
     int a;
     private boolean isRemoved;
-    public HoverBoard(int d,int h,int a)
+    private Player player;
+    public HoverBoard(int d,int h,int a, Player p)
     {
         this.d = d;
         this.h = h;
         this.a = a;
+        player = p;
         
     }
     public void act()
@@ -45,6 +47,8 @@ public class HoverBoard extends Actor
                 game.removeObject(actor);
                 game.removeObject(this);
                 isRemoved = true;
+                
+                player.addGameScore(25);
                 
              
             }
