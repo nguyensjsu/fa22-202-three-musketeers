@@ -134,14 +134,24 @@ public class Player extends Actor implements ScoreSubject, HealthSubject
         int num = Greenfoot.getRandomNumber(100);
         if(num>=98)
         {
-             
-            EnemyGenerator enemyGenerator= new EnemyGenerator();
-            Biff target= EnemyGenerator.getInstance(num, this);
+             if (num%2==0)
+            {
+            BiffOneFactory target = new BiffOneFactory(this);
             int x = 400 + Greenfoot.getRandomNumber(1000-400);
             int y = 10 + Greenfoot.getRandomNumber(600-40);
             GameScreen game=GameScreen.getInstance();
             game.addObject(target,x,y);} 
             
+            else
+            {
+            BiffTwoFactory target = new BiffTwoFactory(this);
+            int x = 400 + Greenfoot.getRandomNumber(1000-400);
+            int y = 10 + Greenfoot.getRandomNumber(600-40);
+            GameScreen game=GameScreen.getInstance();
+            game.addObject(target,x,y);
+            
+            }
         }
     }
 
+}

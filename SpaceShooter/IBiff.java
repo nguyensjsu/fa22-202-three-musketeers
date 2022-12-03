@@ -6,6 +6,6 @@
  */
 public interface IBiff  
 {
-    public void move();
+    
     
 }

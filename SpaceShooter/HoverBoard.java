@@ -40,7 +40,7 @@ public class HoverBoard extends Actor
     {
         if(!isRemoved)
         {
-            Actor actor = getOneObjectAtOffset(0,0,Biff.class);
+            Actor actor = getOneObjectAtOffset(0,0,BiffCreator.class);
             if(actor != null)
             {
                 GameScreen game=GameScreen.getInstance();
