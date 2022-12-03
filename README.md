@@ -41,9 +41,8 @@ We pursued this project using the Scrum Methodology, where by practicing its pri
 
 In terms of modifications to the original game we implemented three design patterns which include the Observer pattern for updating player health, Factory method Design pattern for generating enemies and the Observer pattern for updating player score. Our modifications also included changing the game screens, changed players and enemies as well as their functionalities.
 
-------
 
-## Goal
+### Goal
 The goal is to create a well-designed video game that implements design patterns & encourages team collaboration through a Scrum setting.
 
 
