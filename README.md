@@ -14,6 +14,7 @@
     - [Observer Pattern Health Indicator](#observer-pattern-(health-indicator))
     - [Observer Pattern Score Indicator](#observer)
     - [Factory - Method](#facotry)
+    - [UI Wireframes](#ui-wireframes)
   - [Resources](#resources)
 
 
