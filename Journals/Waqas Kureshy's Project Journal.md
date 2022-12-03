@@ -6,8 +6,8 @@
 * Finalization of team
 * Learned Greenfoot environment
 * Initialized journals
-* initialized project Kanban board 
- 
+* initialized project Kanban board
+
 
 ### Current Work
 * Analyze and finalize Greenfoot Games
@@ -26,7 +26,7 @@ Held Team meeting with group member, started a communication channel, discussed 
 ### Completed
 * Project Finalization
 * Design Pattern Recognition
- 
+
 
 ### Current Work
 * Implementing Factory Design pattern for enemy bots.
@@ -40,7 +40,7 @@ Held Team meeting with group member, started a communication channel, discussed 
 * Held weekly Team meeting with group member
 * Discussed design patterns
 * Shared resources
-* Recognised Problems with old choices.
+* Recognized Problems with old choices.
 
 
 -------------------------
@@ -52,7 +52,7 @@ Held Team meeting with group member, started a communication channel, discussed 
 * Made Screens
 * Worked on creating enemies
 * Worked on enemy images
- 
+
 
 ### Current Work
 * Add sounds
@@ -65,7 +65,7 @@ Held Team meeting with group member, started a communication channel, discussed 
 * Held weekly Team meeting with group member
 * Discussed future work
 * Shared resources
-* Recognised Problems with old choices.
+* Recognized Problems with old choices.
 
 ----------------------
 
@@ -74,11 +74,12 @@ Held Team meeting with group member, started a communication channel, discussed 
 ### Completed
 
 * Worked on attack functions
- 
+
 
 ### Current Work
 * Add sounds
-* add enemy attack function
+* Add enemy attack function
+* Work on UML Diagrams
 
 ### Blockers
 * No blockers
@@ -87,6 +88,53 @@ Held Team meeting with group member, started a communication channel, discussed 
 * Held weekly Team meeting with group member
 * Discussed future work
 * Shared resources
-* Recognised Problems with old choices.
+* Recognized Problems with old choices.
+
+-------------------------
+
+## Week 5 (November 19th to Nov 26th)
+
+### Completed
+
+* Worked UML Diagrams
 
 
+### Current Work
+* Add sounds
+* Work on player kill function
+* Make presentation
+* Work on Game Over screen
+
+### Blockers
+* No blockers
+
+### XP Value: Communication
+* Held weekly Team meeting with group member
+* Discussed future work
+* Shared resources
+* Recognized Problems with old choices.
+
+-------------------
+
+## Week 6 (November 26th to Dec 3rd)
+
+### Completed
+
+* Finished UML Diagrams
+* Fix Game scoring functions
+* Added Game Over Screens
+* Added sounds
+* Fixed bugs in implemented Factory method patterns
+* Fixed enemy kill function.
+
+
+### Current Work
+* N/A
+
+### Blockers
+* No blockers
+
+### XP Value: Communication
+* Held weekly Team meeting with group member.
+* Discussed blockers, changes to be made.
+* Delegated tasks.
