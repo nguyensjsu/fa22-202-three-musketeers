@@ -55,7 +55,10 @@ The goal is to create a well-designed video game that implements design patterns
 
 ---
 ## High Level Architecture Diagram
-The figure show above is our complete Class Diagram, details of the individual components are elaborated below.
+
+![image](https://user-images.githubusercontent.com/78277453/205452211-e70b8c7f-1c8c-4741-82a3-2ef20ca6cfeb.png)
+
+The figure shown above is a high level component diagram of the game, details of the individual components are elaborated below.
 
 - There are three game screens:
   - MyWorld: is the main screen that displays the games logo and features a play button. The playbutton when clicked, opens the main game screen.
