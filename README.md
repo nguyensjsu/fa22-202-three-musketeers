@@ -21,7 +21,9 @@ We implemented a Space shooter game, with a Back to the Future theme. This Proje
 
 ---
 ## Videos
-TODO
+
+[Team Project Demo](https://www.youtube.com/watch?v=XU_tGzfe4os)
+[Game User Story Ad video](https://youtu.be/u7zjtWyvq_E)
 
 ---
 ## Team Members
