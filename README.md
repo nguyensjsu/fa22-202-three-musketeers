@@ -86,21 +86,21 @@ The figure show above is our complete Class Diagram, details of the individual c
 
 ## Design Patterns
 
-- Observer Patter (Health indicator)
+- **Observer Patter (Health indicator)**
 
 ![image](https://user-images.githubusercontent.com/78277453/205449423-6246c00f-bcfe-4a06-8d24-f0abfbd393e0.png)
 
 The Observer pattern was used for displaying the Players Health onto the GameScreen. The player starts with 100 health points, and subsequently looses 25 points by coming in contact with the enemy.In this pattern Player is the Concrete Subject, it implements the HealthSubject Interface and the Health is the Concrete Observer.
 
 
-- Observer Patter (Score indicator)
+- **Observer Patter (Score indicator)**
 
 ![image](https://user-images.githubusercontent.com/78277453/205449411-19585629-b30a-4ebd-8a8a-085dab1067e6.png)
 
 
 The Observer pattern was used for displaying the Players accumulated score onto the GameScreen. The player starts with a score of 0, and gets +25 points for shooting down an enemy. In this pattern Player is the Concrete Subject, it implements the HealthSubject Interface and the Health is the Concrete Observer.
 
-- Factory Method (Biff/enemy generator)
+- **Factory Method (Biff/enemy generator)**
 
 ![image](https://user-images.githubusercontent.com/78277453/205449488-c23183c4-b8c9-4fc1-bce3-7333aec798fa.png)
 
