@@ -14,7 +14,10 @@
     - [Observer Pattern Health Indicator](#observer-pattern-(health-indicator))
     - [Observer Pattern Score Indicator](#observer)
     - [Factory - Method](#facotry)
-    - [UI Wireframes](#ui-wireframes)
+  - [UI Wireframes](#ui-wireframes)
+  - [Sprint Task Sheet](#sprint-task-sheet)
+  - [Kanban Board](#kanban-board)
+  - [Burndown Chart](#burndown-chart)
   - [Resources](#resources)
 
 
