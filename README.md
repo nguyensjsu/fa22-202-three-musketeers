@@ -11,7 +11,7 @@
   - [High Level Architecture Diagram](#high-level-architecture-diagram)
   - [Key Feature Summary](#key-feature-summary)
   - [Design Patterns](#design-patterns)
-    - [Observer Pattern (Health Indicator)](#observer-pattern-(health indicator))
+    - [Observer Pattern (Health Indicator)](#observer-pattern-(health-indicator))
     - [Observer Pattern Score Indicator](#observer)
     - [Factory - Method](#facotry)
   - [UI Wireframes](#ui-wireframes)
