@@ -146,15 +146,22 @@ The UI Wireframes for each Game screen and its respective components are elabora
 ## Sprint Task Sheet
 This task sheet contains information about our tasks and time spent on them for the entire course of the project.
 
+![image](https://user-images.githubusercontent.com/78277453/205450222-68ead9dd-b2ee-4584-bdd1-ee9a89aa21ba.png)
+
 -----------
 
 ## Kanban Board
 We maintained a Kanban board on GitHub, for logging our tasks for this project.
 
+![image](https://user-images.githubusercontent.com/78277453/205450229-00b71743-4b05-48b2-96f8-30e6fc544153.png)
+
 
 ---------------------
 
 ## Burndown Chart
+
+![image](https://user-images.githubusercontent.com/78277453/205450243-89544acc-06ae-45c8-b185-d6103b6dc080.png)
+
 
 ----------
 
