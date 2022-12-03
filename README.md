@@ -113,6 +113,23 @@ The components of the pattern are:
 
 The UI Wireframes for each Game screen and its respective components are elaborated as follows:
 
+- **Main Screen**
+
+![image](https://user-images.githubusercontent.com/78277453/205449224-8a7d5648-a710-42ec-b886-210eadd82441.png)
+
+<br>
+
+- **Game Screen**
+
+![image](https://user-images.githubusercontent.com/78277453/205449253-af0a847f-bd16-4dec-95e6-5055690880aa.png)
+
+<br>
+
+- **Game Over Screen**
+
+![image](https://user-images.githubusercontent.com/78277453/205449272-728c1f8b-8ea7-42dc-a81c-afd8e4046cc8.png)
+
+<br>
 
 
 ---------------
