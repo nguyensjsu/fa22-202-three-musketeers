@@ -143,6 +143,16 @@ The UI Wireframes for each Game screen and its respective components are elabora
 
 ---------------
 
+## Sprint Task Sheet
+This task sheet contains information about our tasks and time spent on them for the entire course of the project.
+
+
+---------------------
+
+## Burndown Chart
+
+----------
+
 ## Resources
 [Project Task Board](https://github.com/orgs/nguyensjsu/projects/14)
 
