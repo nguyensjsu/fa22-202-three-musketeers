@@ -51,10 +51,10 @@ The goal is to create a well-designed video game that implements design patterns
 The figure show above is our complete Class Diagram, details of the individual components are elaborated below.
 
 - There are three game screens:
-* MyWorld: is the main screen that displays the games logo and features a play button. The playbutton when clicked, opens the main game screen.
-* GameScreen: This is the main game screen arena, it features two player statistics, the score and the player health. The actors interact with each other on this screen.
+  - MyWorld: is the main screen that displays the games logo and features a play button. The playbutton when clicked, opens the main game screen.
+  - GameScreen: This is the main game screen arena, it features two player statistics, the score and the player health. The actors interact with each other on this screen.
 
-* GameOver screen: This screen is displayed when the player dies and the game finishes. On this screen two buttons that direct the user to replay the game or to quit to the main menu are displayed. This screen also displays the players final accumulated score.
+  - GameOver screen: This screen is displayed when the player dies and the game finishes. On this screen two buttons that direct the user to replay the game or to quit to the main menu are displayed. This screen also displays the players final accumulated score.
 
 - Player: The player class represents the main entity that the user controls, the user has the ability to move in all 4 directions and it also shoots hoverboards. Our player in the game is depicted by a DeLorean.
 
