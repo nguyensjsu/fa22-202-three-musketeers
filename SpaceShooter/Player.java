@@ -138,7 +138,7 @@ public class Player extends Actor implements ScoreSubject, HealthSubject
             EnemyGenerator enemyGenerator= new EnemyGenerator();
             Biff target= EnemyGenerator.getInstance(num, this);
             int x = 400 + Greenfoot.getRandomNumber(1000-400);
-            int y = 10 + Greenfoot.getRandomNumber(600-20);
+            int y = 10 + Greenfoot.getRandomNumber(600-40);
             GameScreen game=GameScreen.getInstance();
             game.addObject(target,x,y);} 
             
