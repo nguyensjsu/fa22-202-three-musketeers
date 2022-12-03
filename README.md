@@ -22,7 +22,7 @@ We implemented a Space shooter game, with a Back to the Future theme. This Proje
 ---
 ## Videos
 
-[Team Project Demo](https://www.youtube.com/watch?v=XU_tGzfe4os)
+[Team Project Demo](https://www.youtube.com/watch?v=XU_tGzfe4os) <br>
 [Game User Story Ad video](https://youtu.be/u7zjtWyvq_E)
 
 ---
