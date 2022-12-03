@@ -68,6 +68,8 @@ The figure show above is our complete Class Diagram, details of the individual c
 
 ---
 ## Key Feature Summary
+The image below is the complete **UML Class Diagram** of our project.<br>
+![image](https://user-images.githubusercontent.com/78277453/205449702-15fa8041-1e0e-4b44-8c14-f4ed3aa8ceb9.png)
 
 
 - The player is represented by a DMC DeLorean, it shoots Hoverboards from a press of a spacebar.
