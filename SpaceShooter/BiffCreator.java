@@ -57,11 +57,18 @@ public abstract class BiffCreator extends Actor
                     Greenfoot.setWorld(new GameOver(scores));
                     //game.removeObject(this);
                 }
-                
                 else
                 {
                     player.addHealth(-25);
                     game.removeObject(this);
+                    if (player.getHealth()<=0)
+                    {
+                        String scores=Integer.toString(player.getGameScore());
+                        
+                        game.removeObject(actor);
+                        Greenfoot.setWorld(new GameOver(scores));
+                        //game.removeObject(this);
+                    }
                 }
              
             }
